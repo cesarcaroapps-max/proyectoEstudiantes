@@ -1,0 +1,18 @@
+<h1>Lista de estudiantes</h1>
+<table>
+    <thead style="border: solid 1px;">
+      <th style="border: solid 1px;">Codigo</th>
+      <th style="border: solid 1px;">Nombre</th>
+      <th style="border: solid 1px;">Promedio</th>
+      <th style="border: solid 1px;">Acciones</th>
+    </thead>
+    <tbody style="border: solid 1px;" >
+      <tr style="border: solid 1px;" *ngFor="let estudiante of estudiantes">
+        <td style="border: solid 1px;">{{ estudiante.codigo }}</td>
+        <td style="border: solid 1px;">{{ estudiante.nombre }}</td>
+        <td style="border: solid 1px;">{{ estudiante.promedio }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+ 
